@@ -6,27 +6,18 @@
         font-family: Arial;
         margin: 0;
     }
-
     img {
         vertical-align: middle;
     }
-
-    /* Расположите контейнер с изображением (необходимо расположить стрелки влево и вправо) */
     .container {
         position: relative;
     }
-
-    /* Скрыть изображения по умолчанию */
     .mySlides {
         display: none;
     }
-
-    /* Добавление указателя при наведении указателя мыши на миниатюры изображений */
     .cursor {
         cursor: pointer;
     }
-
-    /* Вперед и назад кнопки */
     .prev,
     .next {
         cursor: pointer;
@@ -41,44 +32,32 @@
         border-radius: 0 3px 3px 0;
         -webkit-user-select: none;
     }
-
-    /* Расположите кнопку "вперед" справа */
     .next {
         right: 0;
         border-radius: 3px 0 0 3px;
     }
-
-    /* При наведении курсора мыши добавьте черный цвет фона с небольшим прозрачным слоем */
     .prev:hover,
     .next:hover {
         background-color: rgba(0, 0, 0, 0.8);
     }
-
-    /* Контейнер для текста изображения */
     .caption-container {
         text-align: center;
         background-color: #222;
         padding: 2px 16px;
         color: white;
     }
-
     .row:after {
         content: "";
         display: table;
         clear: both;
     }
-
-    /* Шесть колонн бок о бок */
     .column {
         float: left;
         width: 16.66%;
     }
-
-    /* Добавьте эффект прозрачности для миниатюрных изображений */
     .demo {
         opacity: 0.6;
     }
-
     .active,
     .demo:hover {
         opacity: 1;
